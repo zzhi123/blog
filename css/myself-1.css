@@ -1,0 +1,17 @@
+/* @import url(https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/lxgwwenkaimono-regular/result.css); */
+/* @import url(https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap); */
+
+
+  /* 定义 CSS 变量 */
+  :root {
+    /* 修改全局默认字体大小 */
+    --base-font-size: 16px;
+    /* 修改全局默认字体样式 */
+    --base-font-family: 'Times New Roman';
+    /* --base-font-family: 'LXGW WenKai Mono', 'Times New Roman'; */
+    --box-border-radius: 50px;
+  }
+
+  /* body {
+   font-family: 'LXGW WenKai Mono', 'Times New Roman';
+} */
