@@ -1,0 +1,37 @@
+/* @import url(https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/lxgwwenkaimono-regular/result.css); */
+/* @import url(https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap); */
+
+
+@font-face {
+  font-family: 'DingTalk JinBuTi';
+  src: url('/fonts/DingTalk JinBuTi.ttf');
+}
+
+/* 定义 CSS 变量 */
+:root {
+  /* 修改全局默认字体大小 */
+  --base-font-size: 16px;
+  /* 修改全局默认字体样式 */
+  --base-font-family: 'DingTalk JinBuTi','Consolas','Microsoft YaHei';
+  /* --base-font-family: 'LXGW WenKai Mono', 'Times New Roman'; */
+  --box-border-radius: 15px;
+  --post-img-align: 0 auto;
+  
+  /* 首页文章卡片的摘要行间距 */
+  --base-line-height: 25px;
+  /* 文章内行间距 */
+  --post-line-height: 1.75;
+
+}
+
+  /* body {
+   font-family: 'LXGW WenKai Mono', 'Times New Roman';
+} */
+
+img {
+  border-radius: var(--box-border-radius); /* 使用您定义的 CSS 变量 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
